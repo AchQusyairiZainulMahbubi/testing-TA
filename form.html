@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>form</title>
+</head>
+<body>
+    <div class="header">
+        <h1><b><i><span>GOJEK</span> MAHASISWA</i></b></h1>
+    </div>
+
+    <div class="menu">
+        <b>
+        <a href="index.html" >Home</a>
+        <a href="#" style="background-color: rgb(144, 118, 118);">Form</a>
+        <a href="evaluation.html">Evaluation</a>
+        <a href="about.html">About Us</a>
+        </b>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            
+            <div class="form">
+                <form action="form.html" method="get">
+                    <div class="atas">
+                        <div class="form_nama">
+                            <label for="nama">masukan nama anda : </label>
+                            <input type="text" id="nama" name="nama" >
+                        </div>
+
+                        <div class="form_hp">
+                            <label for="no_hp">no hp : </label>
+                            <input type="text" name="no_hp" id="no_hp" >
+                        </div>
+                    </div>
+
+                    <div class="tengah">
+                        <div class="form_alamat_w">
+                            <label for="alamat_w">masukan alamat awal anda : </label>
+                            <input type="text" id="alamat_w" name="alamat_w" >
+                        </div>
+
+                        <div class="form_alamat_t">
+                            <label for="alamat_t">no alamat_t : </label>
+                            <input type="text" name="alamat_t" id="alamat_t" list="tujuan">
+                            <datalist id="tujuan" >
+                                <option value="Kampus">
+                                <option value="Kamal">
+                                <option value="Bangkalan">
+                                <option value="surabaya">
+                                <option value="telang">
+                            </datalist>
+                        </div>
+                    </div>
+
+                    <div class="tengah">
+                        <div class="form_pengemudi">
+                            <label for="pengemudi">masukan pengemudi anda : </label>
+                            <select name="pengemudi" id="pengemudi" >
+                                <option value="1">agus</option>
+                                <option value="2">gupron</option>
+                                <option value="3">ucup</option>
+                            </select>
+                        </div>
+
+                        <div class="form_pembayaran">
+                            <label for="pembayaran">no pembayaran : </label>
+                            <select name="pembayaran" id="pembayaran" >
+                                <option value="1">gopay</option>
+                                <option value="1">ovo</option>
+                                <option value="1">dana</option>
+                                <option value="1">BNI</option>
+                                <option value="1">BCA</option>
+                                <option value="1">Cash</option>
+                            </select>
+                        </div>                        
+                    </div>
+
+                    <div class="tengah">
+                        <div class="form_tambahan">
+                            <label for="tambahan">Catatan</label>
+                            <textarea name="tambahan" id="tambahan" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <div class="form_gender">
+                            <b>Jenis Kelamin:</b>
+                            <br>
+                            <label for="male">Laki-laki</label>
+                            <input name="gender" id="male" value="male" checked type="radio">
+                            <label for="female">Perempuan</label>
+                            <input name="gender" id="female" value="female" type="radio">
+                        </div>
+                    </div>
+                    <br><br>
+                    <button type="submit" id="btn_submit">PESAN</button>
+                    <button type="reset" id="btn_reset">RESET</button>
+                        
+                    
+                    <!-- <label for="alamat_sekarang">
+                        alamat yan sekarang : 
+                        <input type="text" name="alamat_sekarang" id="alamat_sekarang">
+                    </label> -->
+                </form>
+            </div>
+            
+        </div>
+        <div class="sidebar">
+            
+            <h2>HASIL AKAN DITAMPILKAN DIBAWAH</h2>
+            <br><br>
+            <p>jika ada kesalahan dari masukan anda akan muncul disini</p>
+            <p id="error_massage_nama"></p>
+            <p id="error_massage_hp"></p>
+            <p id="error_massage_tujuan"></p>
+            <p id="error_massage_pengemudi"></p>
+
+        </div>
+    </div>
+
+    <div class="footer">FOOTER @</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

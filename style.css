@@ -1,0 +1,201 @@
+
+/* BAGIAN LAYOUT */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+span {
+    color: #1F7E3E;
+}
+.menu {
+    
+    background-color: #1F7E3E;
+    padding: 9.5px;
+    display: flex;
+    justify-content: center;
+    
+}
+a {
+    /* background-color: rgb(144, 118, 118); */
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 35px;
+    
+}
+
+a:hover {
+    background-color: rgb(144, 118, 118); 
+    transition: 0.4s;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+
+.content {
+    margin: 25px;
+    padding: 20px;
+    width: 80%;
+    /* background-color: violet; */
+    border-radius: 25px;
+    border-width: 4px;
+    
+    border-style:dashed;
+    border-color: #1F7E3E;
+    
+}
+
+.sidebar {
+    margin: 25px;
+    padding: 20px;
+    width: 20%;
+    border-radius: 20px;
+    background-color: #DCEDC8;
+}
+
+.footer {
+    background-color: #333333;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+}
+
+/* INI BAGIAN AKHIR DARI LAYOUT */
+
+
+
+
+
+/* INI BAGIAN AWAL HOMEPAGE */
+
+
+
+/* INI BAGIAN AKHIR HOMEPAGE */
+
+
+
+
+
+
+
+/* INI BAGIAN AWAL FORM */
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.atas, .tengah {
+    display: flex;
+}
+
+.form_nama, .form_hp, .form_alamat_w, .form_alamat_t, .form_pengemudi, .form_pembayaran, .form_tambahan, .form_gender {
+    margin: 10px;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+input, select, datalist {
+    border-radius: 5px;
+    width: 500px;
+    padding: 7px;
+    border: 1px solid #ccc;
+    box-shadow: black 10000000000000px;
+    /* outline: none;           */
+}
+
+
+input:hover, select:hover {
+    border: 2px solid #1F7E3E; 
+    box-shadow: 1px 5px 10px;
+    
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+select {
+    margin-left: 5px;
+}
+
+button {
+    margin: 10px;
+    padding: 4px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+textarea {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 18px;
+}
+/* INI BAGIAN AKHIR FORM */
+
+
+
+/* INI BAGIAN AWAL EVALUATION */
+
+   .evaluation-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        font-family: Arial, sans-serif;
+    }
+    .evaluation-table th, .evaluation-table td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+    }
+    .evaluation-table th {
+        background-color: #1F7E3E;
+        color: white;
+    }
+        .evaluation-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+        .status-ok {
+        color: #1B4332;
+        font-weight: bold;
+    }
+
+
+/* INI BAGIAN AKHIR EVALUATION */
+
+
+
+
+
+
+
+/*BAGIAN AWAL DARI ABOUT  */
+
+
+
+
+
+/* BAGIAN AKHIR DARI ABOUT */ 
