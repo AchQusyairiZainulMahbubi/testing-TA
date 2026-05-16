@@ -19,25 +19,27 @@ span {
 .menu {
     
     background-color: #1F7E3E;
-    padding: 9.5px;
+    padding: 13px;
     display: flex;
     justify-content: center;
     
 }
 a {
     /* background-color: rgb(144, 118, 118); */
+    font-family: "cause", cursive;
     color: white;
     text-decoration: none;
     margin-left: 35px;
     margin-right: 35px;
-    padding: 10px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 35px;
-    
+    border-radius: 10px;
 }
 
 a:hover {
+    border-radius: 10px;
     background-color: rgb(144, 118, 118); 
     transition: 0.4s;
 
@@ -69,6 +71,7 @@ a:hover {
     width: 20%;
     border-radius: 20px;
     background-color: #DCEDC8;
+    box-shadow: 5px 10px 10px;
 }
 
 .footer {
